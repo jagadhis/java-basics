@@ -1,5 +1,7 @@
 package jaga.course;
 
+
+//enum in java
 enum lang{
     JAVA,JAVASCRIPT,PYTHON;
 }
@@ -9,6 +11,8 @@ enum lang{
 public class Main {
 
     public static void main(String[] args) {
+
+        //primitive datatypes
 	int value =10000;
     int mymaxvalue = Integer.MAX_VALUE;
     int myminvalue = Integer.MIN_VALUE;
@@ -61,20 +65,20 @@ public class Main {
 
         char myunicodechar = '\u0041';
         System.out.println(myunicodechar);
-
+         //operators
         int result =1*2;
         System.out.println(result);
 
         ++result;
         System.out.println(result);
-
+        //if statement
         boolean istopper=true;
         if(istopper=true){
             System.out.println("He is not a topper");
         }else{
             System.out.println("he is a topper");
         }
-
+        //enum examples and methods
         lang l1 = lang.JAVA;
         System.out.println(l1);
         System.out.println(lang.values());
