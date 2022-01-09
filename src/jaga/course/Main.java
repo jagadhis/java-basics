@@ -136,7 +136,22 @@ class NewThread implements Runnable {
             //creating instance for class
             Main thread = new Main();
             thread.start();//calling start to execute run
+            //logical operators
+            int totalscore = 100;
+            int minscore = 40;
+            //AND logical operator
+            if(totalscore<100 && minscore<40){
+                System.out.println("you are fail");
+            }else{
+                System.out.println("you are pass");
+            }
+            //OR logical operator
+            if(totalscore==100 || minscore==40){
+                System.out.println("you secured first class");
 
+            }else{
+                System.out.println("you secured second class");
+            }
 
 
 
