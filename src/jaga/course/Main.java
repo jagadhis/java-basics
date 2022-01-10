@@ -152,13 +152,15 @@ class NewThread implements Runnable {
             }else{
                 System.out.println("you secured second class");
             }
+
+            //operators
             double dvar1 = 20.00d;
             double dvar2 = 80.00d;
             double dtotal = (dvar1+dvar2)*100.00d;
             System.out.println(dtotal);
             double drem = dtotal % 40.00d;
             System.out.println(drem);
-            boolean isrem = (drem ==0 )? true : false;
+            boolean isrem = (drem ==0 )? true : false; //ternary operator
             System.out.println(isrem);
 
 
